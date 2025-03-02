@@ -13,7 +13,7 @@ import org.bson.Document;
 
 public class MongoClientConnection {
     public static void connect() {
-        String connectionString = "mongodb+srv://kabirsharma2607:kabir1234@main.ipdlvo6.mongodb.net/app-data";
+        String connectionString = "";
 
         ServerApi serverApi = ServerApi.builder()
                 .version(ServerApiVersion.V1)
